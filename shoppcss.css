@@ -1,0 +1,13 @@
+body {
+    padding: 5rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
