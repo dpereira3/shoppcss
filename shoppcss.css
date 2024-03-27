@@ -83,3 +83,41 @@ a.right {
     float: right;
     color: #A18A68;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+
+.item {
+    margin-right: 4rem;
+    width: 30%;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 2rem;
+}
+
+.item:last-child {
+    margin-right: 0rem;
+}
+
+.price {
+    color:#A18A68;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+}
+
+.footer-links a {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 2rem;
+}
+
