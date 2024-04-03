@@ -121,3 +121,24 @@ footer {
     padding-right: 2rem;
 }
 
+.newsletter-container input, button {
+    border: none;
+    background-color: white;
+}
+
+.newsletter-container input[type="text"] {
+    width: 300px;
+    height: 2rem;
+}
+
+.newsletter-container {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    margin-left: auto;
+    width: 28%;
+}
+
+.newsletter-container button[type="submit"] {
+    float: right;
+}
